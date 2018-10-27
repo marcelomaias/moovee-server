@@ -1,0 +1,27 @@
+{
+  "name": "moovee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "config": "^2.0.1",
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "joi": "^14.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.6",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
